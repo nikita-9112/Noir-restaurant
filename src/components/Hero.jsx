@@ -76,8 +76,7 @@ const Hero = () => {
         </motion.div>
 
         {/* Main Heading */}
-        <motion.h1
-          variants={reveal}
+        <h1
           className="max-w-4xl font-display text-5xl leading-[1.15] text-noir-cream sm:text-6xl md:text-7xl lg:text-8xl"
         >
           Where Every
@@ -87,7 +86,7 @@ const Hero = () => {
           <span className="italic text-noir-gold">
             Beautiful Story.
           </span>
-        </motion.h1>
+        </h1>
 
         {/* Description */}
         <motion.p
