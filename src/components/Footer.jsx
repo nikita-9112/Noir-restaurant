@@ -39,7 +39,7 @@ const Footer = () => {
           >
             <a href="#home" className="inline-flex items-center gap-3">
               <img
-                src="/noir-logo.png"
+                src="/favicon.webp"
                 alt="NOIR Restaurant Logo"
                 className="h-14 w-14 object-contain"
               />

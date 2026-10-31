@@ -11,7 +11,7 @@ const dishes = [
       "Handcrafted pasta tossed in a rich, creamy truffle sauce.",
     price: "₹449",
     image:
-      "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=900&q=85",
+      "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=900&q=85?auto=format",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const dishes = [
       "Tender paneer infused with aromatic spices and grilled to perfection.",
     price: "₹329",
     image:
-      "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=900&q=85",
+      "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=900&q=85?auto=format",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const dishes = [
       "A delicious chocolate dessert with a rich, indulgent centre.",
     price: "₹249",
     image:
-      "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=900&q=85",
+      "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=900&q=85?auto=format",
   },
 ];
 

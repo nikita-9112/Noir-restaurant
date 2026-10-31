@@ -20,7 +20,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="#home" className="flex items-center gap-3">
           <img
-            src="/noir-logo.png"
+            src="/favicon.webp"
             alt="NOIR Restaurant Logo"
             className="h-11 w-11 object-contain"
           />

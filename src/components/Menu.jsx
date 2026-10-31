@@ -17,7 +17,7 @@ const menuItems = [
     category: "Starters",
     description: "Marinated paneer grilled with aromatic Indian spices.",
     price: "₹329",
-    image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=700&q=85",
+    image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=700&q=85?auto=format",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const menuItems = [
     category: "Starters",
     description: "Golden rolls filled with fresh vegetables and herbs.",
     price: "₹249",
-    image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=700&q=85",
+    image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=700&q=85?auto=format",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const menuItems = [
     category: "Main Course",
     description: "Handcrafted pasta tossed in a rich creamy sauce.",
     price: "₹449",
-    image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=700&q=85",
+    image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=700&q=85?auto=format",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const menuItems = [
     category: "Main Course",
     description: "A delicious pizza topped with fresh vegetables.",
     price: "₹399",
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=700&q=85",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=700&q=85?auto=format",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const menuItems = [
     category: "Desserts",
     description: "Rich chocolate dessert for a perfect ending.",
     price: "₹249",
-    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=700&q=85",
+    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=700&q=85?auto=format",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const menuItems = [
     category: "Desserts",
     description: "Smooth and creamy cheesecake with a delicate crust.",
     price: "₹279",
-    image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=700&q=85",
+    image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=700&q=85?auto=format",
   },
   {
     id: 7,
@@ -65,7 +65,7 @@ const menuItems = [
     category: "Drinks",
     description: "Refreshing lime drink with a hint of mint.",
     price: "₹149",
-    image: "https://images.unsplash.com/photo-1513558161293-cdaf765edfd4?w=700&q=85",
+    image: "https://images.unsplash.com/photo-1513558161293-cdaf765edfd4?w=700&q=85?auto=format",
   },
   {
     id: 8,
@@ -73,7 +73,7 @@ const menuItems = [
     category: "Drinks",
     description: "A refreshing blend of seasonal berries.",
     price: "₹199",
-    image: "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=700&q=85",
+    image: "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=700&q=85?auto=format",
   },
 ];
 
