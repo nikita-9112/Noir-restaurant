@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
-import { fadeUp, fadeLeft, fadeRight } from "../animations/variants";
+import {  fadeLeft, fadeRight } from "../animations/variants";
 
 const About = () => {
   return (

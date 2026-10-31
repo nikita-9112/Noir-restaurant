@@ -3,7 +3,6 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import {
   CalendarDays,
-  Clock,
   Users,
   MessageCircle,
   ArrowRight,
