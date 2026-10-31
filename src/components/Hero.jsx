@@ -1,4 +1,3 @@
-
 import { motion, useReducedMotion } from "motion/react";
 import { ArrowDown, ArrowRight } from "lucide-react";
 
@@ -25,13 +24,21 @@ const Hero = () => {
       id="home"
       className="relative flex min-h-screen items-center overflow-hidden bg-noir"
     >
-      {/* Background Image */}
-      <motion.div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=2000&q=85')",
-        }}
+      {/* Optimized Hero Image */}
+      <motion.img
+        src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=75"
+        srcSet="
+          https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=75 800w,
+          https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=75 1200w,
+          https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=75 1600w
+        "
+        sizes="100vw"
+        alt=""
+        aria-hidden="true"
+        fetchPriority="high"
+        loading="eager"
+        decoding="async"
+        className="absolute inset-0 h-full w-full object-cover object-center"
         initial={{ scale: shouldReduceMotion ? 1 : 1.15 }}
         animate={{ scale: 1 }}
         transition={{
@@ -42,7 +49,6 @@ const Hero = () => {
 
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/65 to-black/30" />
-
       <div className="absolute inset-0 bg-gradient-to-t from-noir/80 via-transparent to-black/30" />
 
       {/* Hero Content */}
@@ -105,7 +111,6 @@ const Hero = () => {
             className="group flex items-center gap-4 bg-noir-gold px-7 py-4 text-xs font-semibold tracking-widest text-noir transition-colors hover:bg-noir-cream"
           >
             EXPLORE MENU
-
             <ArrowRight
               size={17}
               className="transition-transform duration-300 group-hover:translate-x-1"
@@ -127,11 +132,7 @@ const Hero = () => {
         href="#about"
         aria-label="Scroll to discover our story"
         className="absolute bottom-9 left-1/2 z-10 flex -translate-x-1/2 flex-col items-center gap-3 text-noir-cream/70"
-        animate={
-          shouldReduceMotion
-            ? {}
-            : { y: [0, 8, 0] }
-        }
+        animate={shouldReduceMotion ? {} : { y: [0, 8, 0] }}
         transition={{
           duration: 1.8,
           repeat: Infinity,
@@ -141,7 +142,6 @@ const Hero = () => {
         <span className="text-[10px] tracking-[0.35em]">
           SCROLL TO EXPLORE
         </span>
-
         <ArrowDown size={18} className="text-noir-gold" />
       </motion.a>
 

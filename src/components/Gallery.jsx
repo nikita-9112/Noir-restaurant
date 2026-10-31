@@ -14,35 +14,35 @@ const galleryImages = [
     title: "The Perfect Ambience",
     category: "INTERIORS",
     image:
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=75",
   },
   {
     id: 2,
     title: "Crafted to Perfection",
     category: "FOOD",
     image:
-      "https://images.unsplash.com/photo-1547592180-85f173990554?w=1200&q=85",
+      "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=75",
   },
   {
     id: 3,
     title: "An Evening at NOIR",
     category: "EXPERIENCE",
     image:
-      "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200&q=85",
+      "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=900&q=75",
   },
   {
     id: 4,
     title: "A Taste of Elegance",
     category: "FOOD",
     image:
-      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=85",
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=75",
   },
   {
     id: 5,
     title: "Moments Worth Sharing",
     category: "INTERIORS",
     image:
-      "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85",
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=900&q=75",
   },
 ];
 
@@ -119,6 +119,7 @@ const Gallery = () => {
                 src={item.image}
                 alt={item.title}
                 loading="lazy"
+                decoding="async"
                 className="h-full w-full object-cover transition duration-700 group-hover:scale-110"
               />
 
